@@ -23,7 +23,7 @@ module.exports = {
         'body': '2rem',
       },
       backgroundImage:{
-        'hero' : "url('/src/assets/image/hero-image-wr.jpg')",
+        'hero' : "url('./assets/images/hero-image-wr.jpg')",
       }
     },
   },
