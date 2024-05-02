@@ -21,6 +21,9 @@ module.exports = {
       },
       fontSize: {
         'body': '2rem',
+        'normal': '1rem',
+        'medium': '0.875rem',
+        'small': '0.75rem',
       },
       backgroundImage:{
         'hero' : "url('./assets/images/hero-image-wr.jpg')",
