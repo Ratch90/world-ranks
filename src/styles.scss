@@ -1,3 +1,41 @@
 @tailwind base;
 @tailwind components;
-@tailwind utilities; /* You can add global styles to this file, and also import other style files */
+@tailwind utilities;
+
+@layer base {
+    @font-face {
+        font-family: 'Be Vietnam Pro Semibold';
+        src:
+            local(''),
+            url('./assets/fonts/BeVietnamPro-SemiBold.ttf') format('ttf');
+        font-style: normal;
+        font-weight: normal;
+    }
+
+    @font-face {
+        font-family: 'Be Vietnam Pro Bold Medium';
+        src:
+            local(''),
+            url('./assets/fonts/BeVietnamPro-Bold.ttf') format('ttf');
+        font-style: normal;
+        font-weight: normal;
+    }
+
+    @font-face {
+        font-family: 'Be Vietnam Pro Medium';
+        src:
+            local(''),
+            url('./assets/fonts/BeVietnamPro-Medium.ttf') format('ttf');
+        font-style: normal;
+        font-weight: normal;
+    }
+
+    html * {
+        @apply box-border;
+    }
+
+    html,
+    body {
+        @apply min-h-full w-full bg-primary-eerie-black  text-secondary-light-gray;
+    }
+}
